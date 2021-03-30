@@ -1,3 +1,7 @@
+from animal import Animal
+from cat import Cat
+from dog import Dog
+
 class Home:
     def __init__(self, pets = []):
         self.pets = pets
@@ -19,7 +23,7 @@ def main():
     cat = Cat()
     
 
-    dog1 = Dog("Rax", "barks")
+    dog1 = Dog("Rex", "barks")
     cat1 = Cat("Stormy", " meows")
     home.Adopt_pets(dog1)
     home.Adopt_pets(cat)
@@ -28,5 +32,3 @@ def main():
     print(home.pets[0].name)
     print(home.pets[1].name)
     
-if __name__ == "__main__":
-    main()

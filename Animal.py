@@ -9,7 +9,7 @@ class Animal:
         print("{0} barks".format(self.sounds))
 
     
-dog = Animal("Rax", "Dog")
+dog = Animal("Rex", "Dog")
 cat = Animal("Stormy", "Cat") 
 dog.food()
 dog.sound() 
